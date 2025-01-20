@@ -1,0 +1,21 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVrq_5GlnVyzzb3LKUPvmoYJrMaQ5nhr8J2x3LvuvHqCxhvyw_qoW4dHnOLccc2feUZFM&usqp=CAU');
+    background-size:  cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .wrapper button{
+    font-size: 72px;
+    color: blue;
+    background-color: brown;
+ }
