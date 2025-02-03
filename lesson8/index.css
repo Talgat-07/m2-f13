@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --colorText: #000000;
+  --backgroundColor: #fff;
+  --buttonColor: #adadad;
+}
+
+[data-theme="dark"] {
+  --colorText: #ffffff;
+  --backgroundColor: rgb(35, 35, 35);
+  --buttonColor: #cacaca;
+}
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+.lang {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+.lang .langBtn {
+  width: 30px;
+  height: 30px;
+  background-color: var(--buttonColor);
+}
+.lang .langBtn img {
+  width: 100%;
+  background-color: var(--buttonColor);
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
